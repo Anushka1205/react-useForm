@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: azure;
+}
+
+.style{
+  border: 2px solid grey;
+  box-shadow: 4px 6px 6px grey;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 2vh;
+  background-color: white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+
+}
+form input{
+  width: 350px;
+  height: 50px;
+  margin: 2% 0;
+  font-size: large;
+  padding-left: 2%;
+}
+form #button{
+  background-color: green;
+  color: white;
+}
+form p{
+  color: red;
+}
+form h3{
+  background-color: rgb(124, 124, 228);
+  width: 350px;
+  height: 50px;
+  margin: 2% 0;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
